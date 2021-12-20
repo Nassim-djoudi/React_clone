@@ -2,6 +2,7 @@
 import React,{useEffect,useState} from 'react'
 import "./Nav.css"
 import { BiSearch,BiBell } from "react-icons/bi";
+import {RiArrowDropDownFill} from "react-icons/ri"
 export default function Nav() {
 	const [show, handleShow] = useState(false)
 	useEffect(() => {
@@ -17,10 +18,16 @@ export default function Nav() {
 
 	return (
 		<div className={`nav ${show && "nav_black"}`}>
-			<img className="nav_logo nav_icon"
-				src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
-				alt="Netflix Logo"
-			/>
+			<div className="left">
+				<img className="nav_logo nav_icon"
+					src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+					alt="Netflix Logo"
+				/>
+				<div className="parcourir">
+					<h2 className="parcourir_text">Parcourir</h2>
+					<RiArrowDropDownFill className="parcourir_icon" color="white" size="25px"/>
+				</div>
+			</div>
 			<div className="nav_icons">
 				<BiSearch className="nav_icon" color="white" size="22px"/>
 				<BiBell className="nav_icon" color="white" size="22px"/>
