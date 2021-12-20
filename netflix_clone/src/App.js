@@ -3,10 +3,11 @@ import React from "react";
 import Row from "./Row.js";
 import requests from "./requests";
 import Banner from "./Banner";
+import Nav from "./Nav";
 function App() {
   return (
     <div className="App">
-      {/*Navbar*/}
+      <Nav/>
       <Banner/>
       <Row title="Programmes originaux Netflix" isLargeRow fetchUrl={requests.fetchNetflix}/>
       <Row title="Tendances Actuelles" fetchUrl={requests.fetchTrending}/>
