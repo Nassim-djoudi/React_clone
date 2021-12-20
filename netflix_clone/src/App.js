@@ -2,11 +2,12 @@ import './App.css';
 import React from "react";
 import Row from "./Row.js";
 import requests from "./requests";
-
+import Banner from "./Banner";
 function App() {
   return (
     <div className="App">
-      <h1>Créons un Netflix Clone avec TmdbApi</h1>
+      {/*Navbar*/}
+      <Banner/>
       <Row title="Programmes originaux Netflix" isLargeRow fetchUrl={requests.fetchNetflix}/>
       <Row title="Tendances Actuelles" fetchUrl={requests.fetchTrending}/>
       <Row title="Les plus gros succès sur Netflix" fetchUrl={requests.fetchTopRated}/>
