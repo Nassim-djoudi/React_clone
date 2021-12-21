@@ -3,8 +3,8 @@ import React,{useEffect,useState} from 'react'
 import "./Nav.css"
 import { BiSearch,BiBell } from "react-icons/bi";
 import {RiArrowDropDownFill} from "react-icons/ri"
-import logo from "../pictures/Netflix.svg"
-import avatar from "../pictures/Avatar_1.png"
+import logo from "../../pictures/Netflix.svg"
+import avatar from "../../pictures/Avatar_1.png"
 export default function Nav() {
 	const [show, handleShow] = useState(false)
 	useEffect(() => {

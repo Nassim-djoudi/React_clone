@@ -1,10 +1,10 @@
 //HomePage
 import React from 'react'
-import Row from ".Row.js";
+import Row from "../components/HomePage/Row.js";
 import requests from "../TmdbApi/requests";
-import Banner from ".Banner";
-import Nav from "./Nav";
-
+import Banner from "../components/HomePage/Banner";
+import Nav from "../components/HomePage/Nav";
+import "./HomePage.css"
 
 
 export default function HomePage() {

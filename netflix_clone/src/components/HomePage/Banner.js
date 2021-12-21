@@ -1,7 +1,7 @@
 //Banner
 import React, {useState,useEffect} from 'react';
-import axios from "../TmdbApi/axios";
-import requests from "../TmdbApi/requests"
+import axios from "../../TmdbApi/axios";
+import requests from "../../TmdbApi/requests"
 import "./Banner.css"
 export default function Banner() {
 
@@ -29,7 +29,6 @@ export default function Banner() {
 				backgroundPosition: "center center"
 			}}
 		>
-			{/*title*/}
 			<div className="banner_contents">
 				<h1 className="banner_title">{movie.title || movie?.name || movie?.original_name}</h1>
 				
