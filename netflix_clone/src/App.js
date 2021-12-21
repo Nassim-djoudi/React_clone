@@ -1,9 +1,10 @@
 import './App.css';
 import React from "react";
-import Row from "./Row.js";
-import requests from "./requests";
-import Banner from "./Banner";
-import Nav from "./Nav";
+import Row from "./components/Row.js";
+import requests from "./TmdbApi/requests";
+import Banner from "./components/Banner";
+import Nav from "./components/Nav";
+
 function App() {
   return (
     <div className="App">

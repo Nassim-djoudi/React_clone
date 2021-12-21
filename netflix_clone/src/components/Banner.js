@@ -1,7 +1,7 @@
 //Banner
 import React, {useState,useEffect} from 'react';
-import axios from "./axios";
-import requests from "./requests"
+import axios from "../TmdbApi/axios";
+import requests from "../TmdbApi/requests"
 import "./Banner.css"
 export default function Banner() {
 

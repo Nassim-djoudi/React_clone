@@ -1,0 +1,61 @@
+.nav{
+	display: flex;
+	flex-direction: row;
+	width:100%;
+	justify-content: space-between;
+	position:fixed;
+	top:0;
+	z-index:1;
+	padding:13px;
+	height:30px;
+	align-items: center;
+	transition-timing-function:ease-in;
+	transition: all 0.5s
+}
+
+.nav_black{
+	background-color:#111;
+}
+
+.nav_logo {
+	margin-left: 10px;
+
+}
+
+.nav_icons{
+	display: flex;
+	margin-right:40px;
+	justify-content: space-between;
+	width:150px;
+	align-items: center
+}
+
+.nav_icon:hover{
+	cursor: pointer;
+
+}
+.nav_icon{
+	height: 30px;
+	object-fit: contain;
+}
+.nav_avatar{
+	height:36px;
+}
+.left{
+	display:flex;
+	align-items: center
+}
+.parcourir{
+	align-items:center;
+	display: flex;
+	margin-left:33px;
+	padding-bottom:4px;
+}
+.parcourir_text{
+	color:white;
+	font-weight:400;
+	font-size:1rem;
+}
+.parcourir_icon{
+	padding-top: 5px
+}
