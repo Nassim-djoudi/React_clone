@@ -1,0 +1,57 @@
+.signinPage{
+	max-width: 400px;
+	padding:70px;
+	margin-right: auto;
+	margin-left: auto;
+	background: rgba(0,0,0,0.85);
+	width:30%;
+	min-width:250px;
+}
+.signinPage > form{
+	display: grid;
+	flex-direction: column
+}
+.signinPage > form > input{
+	padding:5px 15px;
+	outline-width:0;
+	height:40px;
+	margin-bottom:14px;
+	border-radius:5px;
+	border:none;
+	background-color: #333;
+background-position-x: 0px;
+background-position-y: 0px;
+background-repeat: repeat;
+background-attachment: scroll;
+background-image: none;
+background-size: auto;
+background-origin: padding-box;
+background-clip: border-box;
+color:white;
+}
+.signinPage > form > button{
+	padding:16px 20px;
+	font-size:1rem;
+	color:white;
+	border-radius: 5px;
+	background-color: #e50914;
+	border:none;
+	cursor:pointer;
+	margin-top: 20px;
+	font-weight: 700;
+}
+.signinPage > form > h1{
+	text-align: left;
+	margin-bottom:25px;
+}
+.signinPage > form > h4{
+	text-align: left;
+	margin-top:30px;
+}
+.signinPage_grey{
+	color:grey;
+}
+.signinPage_link:hover{
+	cursor:pointer;
+	text-decoration: underline;
+}
